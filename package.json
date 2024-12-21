@@ -1,0 +1,14 @@
+{
+    "name": "reinact-project",
+    "version": "1.0.0",
+    "author": "talz-a",
+    "description": "A project to learn about frontend frameworks",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "serve:examples": "npx http-server . -o ./examples/"
+    },
+    "workspaces": [
+        "packages/runtime"
+    ],
+}

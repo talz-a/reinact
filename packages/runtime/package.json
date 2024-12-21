@@ -1,0 +1,21 @@
+{
+    "name": "reinact",
+    "version": "1.0.0",
+    "main": "dist/reinact.js",
+    "files": [
+        "dist/reinact.js"
+    ],
+    "scripts": {
+        "prepack": "npm run build",
+        "build": "rollup -c"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "rollup": "^4.29.1",
+        "rollup-plugin-cleanup": "^3.2.1",
+        "rollup-plugin-filesize": "^10.0.0"
+    }
+}
