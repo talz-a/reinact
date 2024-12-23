@@ -38,11 +38,6 @@ function removeElementNode(vdom) {
     }
 }
 
-function removeElementNode(vdom) {
-    const { children } = vdom;
-    children.forEach(child => destroyDOM(child));
-}
-
 function removeFragmentNode(vdom) {
     const { children } = vdom;
     children.forEach(child => destroyDOM(child));
