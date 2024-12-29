@@ -151,7 +151,7 @@ function patchChildren(oldVdom, newVdom) {
                 const el = oldChild.el;
                 const elAtTargetIndex = parentEl.childNodes[index];
                 parentEl.insertBefore(el, elAtTargetIndex);
-                patchDOM(oldChild, newChild, parenEl);
+                patchDOM(oldChild, newChild, parentEl);
                 break;
             }
             case ARRAY_DIFF_OP.NOOP: {
