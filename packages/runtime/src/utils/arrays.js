@@ -21,7 +21,7 @@ class ArrayWithOrignialIndicies {
     }
 
     isRemoval(index, newArray) {
-        if (index >= this.length) return False;
+        if (index >= this.length) return false;
         const item = this.#array[index];
         const indexInNewArray = newArray.findIndex(newItem => this.#equalsFn(item, newItem));
         return indexInNewArray === -1;

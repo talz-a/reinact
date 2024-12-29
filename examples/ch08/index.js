@@ -1,4 +1,4 @@
-import { createApp, h, hFragment } from 'https://unpkg.com/reinact@1.0.1/dist/reinact.js';
+import { createApp, h, hFragment } from 'https://unpkg.com/reinact@2.0.3/dist/reinact.js';
 
 const state = {
     currentTodo: '',
